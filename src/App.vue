@@ -11,10 +11,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" @click="$router.push('/')">Home</a>
+                    <a class="nav-link" aria-current="page" @click="$router.push('/')">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" @click="$router.push('/about')"> | About</a>
+                    <a class="nav-link" aria-current="page" @click="$router.push('/about')"> | Acerca de Nosotros</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" @click="$router.push('/dron')"> | Drones</a>
@@ -24,7 +24,7 @@
     </div>
   </nav>
 
-  <div class="container" style="max-width: 800px; margin: auto">
+  <div class="container">
     <router-view/>
   </div>
 

@@ -1,11 +1,13 @@
 <template>
-  <div class="dron">
-    <h1>Pagina de Dron</h1>
 
-    <ProductoView/>
+  <div class="container">
+    <ProductoView />
+  </div>
 
+  <div class="container">
     <TarjetaView/>
   </div>
+
 </template>
 
 <script>
@@ -20,3 +22,9 @@ export default {
   }
 }
 </script>
+
+<style>
+  .container{
+      margin-top: 50px;
+  }
+</style>

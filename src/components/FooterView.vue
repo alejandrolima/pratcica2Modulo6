@@ -1,5 +1,8 @@
 <template>
   <div class="footer">
-    <h1>Esta es la Pagina de Footer</h1>
+    <h6> 
+			© <b>2013 Practica 2 Vue</b> © (Alejandro Lima Maldonado - Ernesto Miranda Choqueticlla - Deybes Condori Condori) 
+      <br> © Todos los Derechos Reservados
+		</h6>
   </div>
 </template>
