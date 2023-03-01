@@ -1,4 +1,12 @@
-# practica_2
+# PRACTICA VUE #2
+## Vue v3 
+
+## INTEGRANTES
+
+- Alejandro Lucio Lima Maldonado
+- Ernesto Miranda Choqueticlla
+- Deybes Richard Condori Condori
+
 
 ## Project setup
 ```
