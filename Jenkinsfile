@@ -18,7 +18,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/alejandrolima/pratcica2Modulo6.git'
 
                 sh 'npm install'
-                sh 'npm run serve'
+                sh 'npm run serve -- --port 3000'
             }
         }
 
@@ -32,7 +32,7 @@ pipeline {
             steps {                
                 sh 'json-server --watch producto.json --port 5000'
 
-                sh 'npm run serve -- --port 3000'
+                sh 'npm run serve -- --port 3001'
             }
         }
     }
