@@ -18,12 +18,13 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/alejandrolima/pratcica2Modulo6.git'
 
                 sh 'npm install'
+                sh 'npm run serve'
             }
         }
 
         stage('test'){
             steps {
-                sh 'curl localhost:80'
+                sh 'curl 192.168.173.77:80'
             }
         }
 
