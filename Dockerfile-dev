@@ -1,11 +1,11 @@
-FROM node:10
+FROM node:14
 
-WORKDIR /my-app
+WORKDIR /app
 
-COPY package*.json ./
+COPY . .
 
 RUN npm install
 
 EXPOSE 8080
 
-CMD ["npm", "run", "serve"]
+CMD ["npm", "run", "serve --port 8080 --host 0.0.0.0"]
