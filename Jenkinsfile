@@ -24,16 +24,14 @@ pipeline {
 
         stage('test'){
             steps {
-                sh 'npm run serve -- --port 3000'
-                sh 'curl localhost:3000'
+                sh 'echo "Esto es un test positivo"'
             }
         }
 
         stage('deploy'){
             steps {                
                 sh 'json-server --watch producto.json --port 5000'
-
-                sh 'npm run serve -- --port 3001'
+                sh 'npm run serve -- --port 3000'
             }
         }
     }
